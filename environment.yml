@@ -1,5 +1,6 @@
 name: handson-ml
 dependencies:
+  - python=3.6
   - scikit-learn
   - matplotlib
   - jupyter
@@ -8,7 +9,7 @@ dependencies:
   - nltk
   - pip:
     - tensorflow
-    - gym[all]
+    - gym
     - graphviz
     - watermark
     - urlextract
